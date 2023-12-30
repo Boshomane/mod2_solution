@@ -17,3 +17,47 @@ h1{
 	text-align:  center;
 }
 
+section{
+	border: 1px solid black;
+
+	display: inline-block;
+	position: relative;
+	margin:6px;
+	background: lightgray;
+
+}
+
+h2{
+	font-size: 1.25em;
+	float: right;
+	overflow: auto;
+	border-width: 0px 0px 2px 1px;
+	border-style: solid;
+	border-color: black;
+	padding: 2px 30px;
+	margin:0px;
+
+}
+
+
+#chicken {
+	background: #e8ba8c;
+
+}
+
+
+#beef{
+	background: #c15742;
+
+}
+
+
+#sushi{
+	background: #d3e477;
+
+}
+
+section p{
+	clear: right;
+	padding: 10px;		 
+}
