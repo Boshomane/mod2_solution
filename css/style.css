@@ -71,3 +71,14 @@ section p{
 		width: 33%;
 	}
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+	section{
+		width: 48%;
+		float: left;
+	}
+
+	section:nth-child(3){
+		width: 97.5%;
+	}
+}
